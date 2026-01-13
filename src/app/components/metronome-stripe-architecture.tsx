@@ -259,25 +259,25 @@ export function MetronomeStripeArchitecture() {
                 </marker>
               </defs>
               <path
-                d="M 200 30 Q 400 10, 600 30"
+                d="M 400 30 Q 600 10, 800 30"
                 stroke="#7c3aed"
                 strokeWidth="3"
                 fill="none"
                 markerEnd="url(#arrowhead)"
               />
-              <text x="400" y="15" fontSize="14" fill="#7c3aed" textAnchor="middle" fontWeight="600">
+              <text x="600" y="15" fontSize="14" fill="#7c3aed" textAnchor="middle" fontWeight="600">
                 Customer & Invoice Data
               </text>
               
               {/* Stripe to Metronome */}
               <path
-                d="M 600 70 Q 400 90, 200 70"
+                d="M 800 70 Q 600 90, 400 70"
                 stroke="#7c3aed"
                 strokeWidth="3"
                 fill="none"
                 markerEnd="url(#arrowhead)"
               />
-              <text x="400" y="100" fontSize="14" fill="#7c3aed" textAnchor="middle" fontWeight="600">
+              <text x="600" y="100" fontSize="14" fill="#7c3aed" textAnchor="middle" fontWeight="600">
                 Payment Status & Events
               </text>
             </svg>
